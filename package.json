@@ -1,0 +1,25 @@
+{
+  "name": "tradecast",
+  "version": "1.0.0",
+  "description": "Video transfare platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FirasSahli2010/tradecast.git"
+  },
+  "author": "Firas Sahli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FirasSahli2010/tradecast/issues"
+  },
+  "homepage": "https://github.com/FirasSahli2010/tradecast#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "nodemon": "^2.0.7"
+  }
+}
